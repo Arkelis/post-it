@@ -5,8 +5,8 @@
 Pour avoir des panels personnalisables, latte-dock est une alternative
 aux panels natifs de Plasma.
 
-Pour garder le raccourci `Meta` (touche Windows) pour les lancement
-d'applications de Latte-dock, modifier le fichier `~/.config/kwinrc`
+Pour garder le raccourci `Meta` (touche Windows) pour le lanceur
+d'applications dans Latte-dock, modifier le fichier `~/.config/kwinrc`
 et ajouter :
 
 ```
