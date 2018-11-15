@@ -1,8 +1,6 @@
-# CSS - display grid et flex
+# CSS : `display: grid`
 
-## `display: grid`
-
-### Disposition
+## Disposition
 
 Ces propriétés concernent l'élément parent des éléments qui composeront
 la grille. Elles définissent la façon dont sera organisée la grille.
@@ -46,7 +44,7 @@ Les propriétés suivantes permettent d'organiser la grille :
 * `grid-row-gap` : espacement entres les lignes
 * `grid-gap` : les deux d'un coup
 
-### Positionnement des éléments dans la grille
+## Positionnement des éléments dans la grille
 
 Les propriétés suivantes concernent les éléments enfants.
 
