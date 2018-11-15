@@ -1,4 +1,4 @@
-# Intro ReactJS
+# JavaScript : ReactJS
 
 ## Création d'un projet
 
