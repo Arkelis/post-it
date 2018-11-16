@@ -15,6 +15,8 @@ au sein d'un conteneur.
   - [Retour à la ligne](#retour-à-la-ligne)
   - [Alignement vertical de plusieurs lignes](#alignement-vertical-de-plusieurs-lignes)
 - [Au niveau de l'élément](#au-niveau-de-lélément)
+  - [Alignement d'un élément](#alignement-dun-element)
+  - [Ordre d'affichage d'un élément](#ordre-daffichage-dun-element)
 
 
 **Sources**
