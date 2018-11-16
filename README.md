@@ -4,7 +4,7 @@ Ce dépôt contient des tas de petits mémos. D'autres sont un peu mieux rédig�
 [PyColore](https://www.pycolore.fr/categories/cat_memo/).
 
 * Arborescence :
-  * [GNU/Linux en bureau (à propos des distributions, des environnements de bureau...)](linux-dekstop)
+  * [GNU/Linux en bureau (à propos des distributions, des environnements de bureau...)](linux-desktop)
   * [GNU/Linux en serveur](serveur)
   * [Web (HTML, CSS, JavaScript)](web)
   * [Snippets de programmation](programmation)
