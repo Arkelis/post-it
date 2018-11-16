@@ -3,4 +3,4 @@
 Ce dépôt contient des tas de petits mémos et des extraits de code.
 
 * [Mémos](notes)
-* [Extraits de code](snippers)
+* [Extraits de code](snippets)
