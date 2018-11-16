@@ -1,4 +1,4 @@
 # post-it serveur
 
 Arborescence :
- * [Liens utiles pour configurer Debian](serveur/debian.md)
+ * [Liens utiles pour configurer Debian](debian.md)
