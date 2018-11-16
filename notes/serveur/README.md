@@ -1,4 +1,5 @@
-# post-it serveur
+[<< Remonter](..)
 
-Arborescence :
+# post-it notes serveur
+
  * [Liens utiles pour configurer Debian](debian.md)
