@@ -1,4 +1,4 @@
-[<< Remonter](..)
+[<< Remonter](https://github.com/Arkelis/post-it)
 
 # post-it snippets
 
