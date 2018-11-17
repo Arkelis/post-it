@@ -1,4 +1,4 @@
-[<< Remonter](https://github.com/Arkelis/post-it)
+[:arrow_backward: Remonter](https://github.com/Arkelis/post-it)
 
 # post-it notes
 
