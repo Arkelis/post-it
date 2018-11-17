@@ -4,7 +4,7 @@
 
 Sur Fedora, cet outil fait partie de `kernel-tools` :
 
-```bash
+```
 # dnf install kernel-tools
 ```
 
@@ -18,7 +18,7 @@ il y en a d'autres, cf. [ArchWiki](https://wiki.archlinux.org/index.php/CPU_freq
 
 Pour avoir des infos sur le fonctionnement actuel du processeur :
 
-```bash
+```
 # cpupower -c 0-3 frequency-info
 ```
 
@@ -26,7 +26,7 @@ Pour avoir des infos sur le fonctionnement actuel du processeur :
 
  Pour passer en mode "économie d'énergie" :
 
-```bash
+```
 # cpupower -c 0-3 frequency-set -g powersave
 ```
 
@@ -34,6 +34,6 @@ Pour avoir des infos sur le fonctionnement actuel du processeur :
 
 Pour passer en mode performance :
 
-```bash
+```
 # cpupower -c 0-3 frequency-set -g performance
 ```
