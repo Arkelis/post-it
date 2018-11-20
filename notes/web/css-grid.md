@@ -1,9 +1,15 @@
 # CSS : `display: grid`
 
-## Disposition
+**Sources**
 
-Ces propriétés concernent l'élément parent des éléments qui composeront
-la grille. Elles définissent la façon dont sera organisée la grille.
+* [CSS Grid Garden](http://cssgridgarden.com/#fr)
+* [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+## Disposition (élément parent)
+
+Ces propriétés concernent l'élément parent (appelé *grid container*)
+des éléments qui composeront la grille. Elles définissent la façon 
+dont sera organisée la grille.
 
 Cet élément doit être en display grid :
 
@@ -46,7 +52,9 @@ Les propriétés suivantes permettent d'organiser la grille :
 
 ## Positionnement des éléments dans la grille
 
-Les propriétés suivantes concernent les éléments enfants.
+Les propriétés suivantes concernent les éléments enfants (*grid items*).
+
+### Placement dans la grille
 
 * `grid-column-start` : première colonne occupée par l'élément (la première colonne
   est numérotée 1).
@@ -63,3 +71,17 @@ Les propriétés suivantes concernent les éléments enfants.
 * `grid-row-start` : idem que pour les colonnes mais pour les lignes
 * `grid-row-end` : idem
 * `grid-row` : idem
+* `grid-area` : place l'élément dans la zone indiquée dans la propriété du grid container
+  `grid-template-areas`.
+
+### Positionnement au sein d'une cellule
+
+Ces propriétés peuvent s'appliquer à un élément qui occupe une **unique** cellule.
+
+* `align-self: start | end | center | stretch;` : aligne verticalement l'élément au
+  sein de sa cellule : haut, bas, centré, remplit la cellule (par défaut).
+* `justify-self: start | end | center | stretch;` aligne horizontalement l'élément
+  sein de sa cellule : haut, bas, centré, remplit la cellule (par défaut).
+* Ces deux propriétés peuvent être combinées en une seule `place-self: <align-self> / <justify-self>`.
+  Si uniquement une valeur est renseignée, elle est appliquée aux deux
+  propriétés précédentes.
