@@ -1,4 +1,13 @@
-# Liens admin
+# Debian
+
+## Connexion SSH sans mot de passe
+
+À partir de l'ordinateur distant par lequel on veut se connecter, on peut
+utiliser la commande `ssh-copy-id`.
+
+```
+$ ssh-copy-id ~/.ssh/nom_de_la_cle -i user@host
+```
 
 ## Mail server config
 
