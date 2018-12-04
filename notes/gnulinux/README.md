@@ -6,7 +6,7 @@
 
 * [CPUPower](cpupower.md) : un utilitaire pour gérer la fréquence du processeur.
 
-# post-it notes distributions (`dist-`)
+## post-it notes distributions (`dist-`)
 
  * [Commandes et liens utiles pour configurer Debian](debian.md)
 
@@ -14,6 +14,6 @@
 
 * [KDE Plasma](de-kde.md) : un environnement de bureau utilisant Qt.
 
-## Démons / services
+## Démons / Services (`ds-`)
 
 * [Avahi](ds-avahi-daemon.md)
