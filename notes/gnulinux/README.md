@@ -4,11 +4,11 @@
 
 ## Outils CLI (`cli-`)
 
-* [CPUPower](cpupower.md) : un utilitaire pour gérer la fréquence du processeur.
+* [CPUPower](cli-cpupower.md) : un utilitaire pour gérer la fréquence du processeur.
 
 ## Distributions (`dist-`)
 
- * [Commandes et liens utiles pour configurer un serveur Debian](debian.md)
+ * [Commandes et liens utiles pour configurer un serveur Debian](dist-debian.md)
 
 ## Bureaux (`de-`)
 
