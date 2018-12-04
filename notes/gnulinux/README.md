@@ -6,9 +6,9 @@
 
 * [CPUPower](cpupower.md) : un utilitaire pour gérer la fréquence du processeur.
 
-## post-it notes distributions (`dist-`)
+## Distributions (`dist-`)
 
- * [Commandes et liens utiles pour configurer Debian](debian.md)
+ * [Commandes et liens utiles pour configurer un serveur Debian](debian.md)
 
 ## Bureaux (`de-`)
 
