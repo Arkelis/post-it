@@ -7,8 +7,7 @@ Ce dossier contient des tas de petits mémos. D'autres sont un peu mieux rédig�
 
 ## Arborescence
 
-  * [GNU/Linux en bureau (à propos des distributions, des environnements de bureau...)](linux-desktop)
-  * [GNU/Linux en serveur](serveur)
+  * [GNU/Linux](gnulinux)
   * [Web (HTML, CSS, JavaScript)](web)
 
 ## Liens vers les grands mémos

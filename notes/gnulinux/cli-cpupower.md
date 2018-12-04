@@ -1,4 +1,4 @@
-# cpupower - Gestion de la fréquence du CPU
+# `cpupower` - Gestion de la fréquence du CPU
 
 ## Installation
 

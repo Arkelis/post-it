@@ -46,7 +46,7 @@ Les propriétés suivantes permettent d'organiser la grille :
   Cela donne une disposition classique avec une sidebar et un body entourées d'un
   header en haut et d'un footer en bas.
 * `grid-column-gap` : espacement entre les colonnes (marche avec toutes les unités 
-  de longueur, poucentage et fr compris)
+  de longueur, pourcentage et fr compris)
 * `grid-row-gap` : espacement entres les lignes
 * `grid-gap` : les deux d'un coup
 
