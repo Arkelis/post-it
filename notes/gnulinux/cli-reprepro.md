@@ -39,6 +39,31 @@ Dans `/var/repo` :
 # reprepro -b . includedeb cosmic /chemin/vers/le/deb
 ```
 
+Cela crée une arborescence particulière :
+
+```
+repo/
+├─ conf/                   <- config pour reprepro
+├─ db/                     <- bdd créées par reprerpo
+├─ dists/                  <- fichiers de metadata importants lus par APT 
+│  └─ cosmic/              <- un dossier par codename
+│     ├─ InRelease         <- intégrité + gpg
+│     ├─ main/             <- correspond aux components
+│     │  └─ binary-amd64/  <- données sur les paquets binaires 64-bit
+│     │     ├─ Packages    <- liste des paquets
+│     │     ├─ Packages.gz <- liste compressée
+│     │     └─ Release     <- intégrité
+│     ├─ Release           <- intégrité
+│     └─ Release.gpg       <- gpg
+└─ pool/                   <- contient les deb
+```
+
+On peut alors ajouter la source
+
+```
+deb /var/repo cosmic main
+```
+
 ## Ajout de la clé publique dans le dépôt
 
 
