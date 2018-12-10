@@ -5,6 +5,9 @@
 ## Outils CLI (`cli-`)
 
 * [CPUPower](cli-cpupower.md) : un utilitaire pour gérer la fréquence du processeur.
+* [reprepro](cli-reprepro.md) : un utilitaire pour créer un dépôt APT pour Debian et dérivés.
+* [dpkg](cli-dpkg.md) : un utilitaire pour gérer les paquets DEB.
+  * dpkg-deb : Extraire, modifier, rempaqueter un paquet DEB
 
 ## Distributions (`dist-`)
 
