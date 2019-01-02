@@ -5,9 +5,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Plugins
+" Les plugins s'installent avec la commande :PluginInstall dans Vim
+
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 
