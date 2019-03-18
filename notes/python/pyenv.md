@@ -1,9 +1,9 @@
 # `pyenv` - Gérer les versions de Python
 
 Ce programme permet d'installer des versions de Python isolées de celle du système. Ainsi, on
-n'est plus dépendant des mise à jour de qui font changer la version par défaut de `python3` par
+n'est plus dépendants des mises à jour de qui font changer la version par défaut de `python3` par
 exemple. Ce programme permet de modifier le comportement de la commande `python` (en modifiant 
-le `PATH`), que ce soit globalement ou dans un dossier précis. Les versions de Python installés
+le `PATH`), que ce soit globalement ou dans un dossier précis. Les versions de Python installées
 sont en fait compilées sur la machine.
 
 ## Installation
