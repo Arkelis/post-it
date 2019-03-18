@@ -9,7 +9,8 @@ Ce dossier contient des tas de petits mémos. D'autres sont un peu mieux rédig�
 
   * [GNU/Linux](gnulinux)
   * [Web (HTML, CSS, JavaScript)](web)
-
+  * [Python](python)
+  
 ## Liens vers les grands mémos
 
   * [Python](https://www.pycolore.fr/python.pdf)
