@@ -16,3 +16,7 @@ Ce dossier contient des tas de petits mémos. D'autres sont un peu mieux rédig�
   * [Python](https://www.pycolore.fr/python.pdf)
   * [Serveur Debian](https://www.pycolore.fr/debian)
   * [OCaml](https://www.pycolore.fr/ocaml)
+
+## Liens externes
+
+* [C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
