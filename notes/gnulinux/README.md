@@ -13,8 +13,8 @@
 
 ## Distributions (`dist-`)
 
- * [Commandes et liens utiles pour configurer un serveur Debian](dist-debian.md)
-
+* [Commandes et liens utiles pour configurer un serveur Debian](dist-debian.md)
+* [Fedora](dist-fedora.md) : liens utiles pour le packaging
 ## Bureaux (`de-`)
 
 * [KDE Plasma](de-kde.md) : un environnement de bureau utilisant Qt.
