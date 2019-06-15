@@ -16,3 +16,7 @@ migrate = Migrate(app, db)
 * Créer la base : `flask db init`
 * Créer les migrations : `flask db migrate`
 * Appliquer les migrations : `flask db upgrade`
+
+## Documentation
+
+[ICI](https://flask-migrate.readthedocs.io/en/latest/)
