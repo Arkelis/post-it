@@ -47,7 +47,7 @@ caractérisent un composant (Component) :
 
 1. Les propriétés (`props`) : des données immuables qui permettent de transférer 
    des données entre les composants.
-2. L'état (`state`), constammant mué, représente l'état du composant.
+2. L'état (`state`), constamment mué, représente l'état du composant.
 
 Un Component doit posséder une méthode `render()` qui renvoie du code qui ressemble
 à du HTML, il s'agit de la syntaxe JSX. Par exemple :
