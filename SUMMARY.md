@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Post-it de PyColore](README.md)
-* [Extraits de codes \(snippets\)](snippets/README.md)
-  * [Programmation](snippets/programmation/README.md)
-    * [Python](snippets/programmation/python.md)
 * [Notes](notes/README.md)
   * [Linux](notes/gnulinux/README.md)
     * [Debian](notes/gnulinux/dist-debian.md)
@@ -24,4 +21,7 @@
     * [CSS - display: grid](notes/web/css-grid.md)
     * [CSS - display: flex](notes/web/css-flex.md)
     * [JavaScript - React](notes/web/js-reactjs.md)
+* [Extraits de codes \(snippets\)](snippets/README.md)
+  * [Programmation](snippets/programmation/README.md)
+    * [Python](snippets/programmation/python.md)
 
