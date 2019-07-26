@@ -1,9 +1,9 @@
 # Table of contents
 
-* [post-it](README.md)
-* [README](snippets/README.md)
-  * [README](snippets/programmation/README.md)
-    * [README](snippets/programmation/python.md)
+* [Post-it de PyColore](README.md)
+* [Extraits de codes \(snippets\)](snippets/README.md)
+  * [Programmation](snippets/programmation/README.md)
+    * [Python](snippets/programmation/python.md)
 * [README](notes/README.md)
   * [README](notes/gnulinux/README.md)
     * [cpupower - Gestion de la fréquence du CPU](notes/gnulinux/cli-cpupower.md)

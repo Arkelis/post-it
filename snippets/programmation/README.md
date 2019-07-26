@@ -1,8 +1,10 @@
-# README
+---
+description: Extraits de code sur des langages de programmation
+---
 
-[:arrow\_backward: Remonter](../)
+# Programmation
 
-## post-it snippets programmation
+## Liste des langages
 
 * [Python](python.md)
 
