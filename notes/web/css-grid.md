@@ -1,4 +1,8 @@
-# CSS : display: grid
+---
+description: Le système moderne de grille en CSS
+---
+
+# CSS - display: grid
 
 **Sources**
 

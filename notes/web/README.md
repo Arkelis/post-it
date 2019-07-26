@@ -1,20 +1,24 @@
-# README
+---
+description: 'Notes sur les technologies web : HTML, CSS, JS, frameworks'
+---
 
-[:arrow\_backward: Remonter](../)
+# Web
 
-## post-it notes web
+## Références du langage
 
-### Références du langage
+### CSS
 
-* CSS
-  * [CSS-Flexbox](css-flex.md)
-  * [CSS-Grid](css-grid.md)
+* [CSS-Flexbox](css-flex.md)
+* [CSS-Grid](css-grid.md)
 
-### Bibliothèques
+## Bibliothèques
 
-* Javascript
-  * [ReactJS](js-reactjs.md)
-* CSS
-  * [Animate CSS](https://github.com/daneden/animate.css)
-  * [Skeleton](http://getskeleton.com/)
+### CSS
+
+* [Animate CSS](https://github.com/daneden/animate.css)
+* [Skeleton](http://getskeleton.com/)
+
+### JavaScript
+
+* [ReactJS](js-reactjs.md)
 

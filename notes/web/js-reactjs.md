@@ -1,4 +1,8 @@
-# JavaScript : ReactJS
+---
+description: React est un framework JavaScript orienté composant développé par Facebook
+---
+
+# JavaScript - React
 
 ## Création d'un projet
 

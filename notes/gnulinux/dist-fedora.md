@@ -1,4 +1,4 @@
-# Packaging Fedora
+# Fedora
 
 ## Les liens essentiels
 

@@ -1,18 +1,10 @@
-# CSS : display: flex
+---
+description: >-
+  Les flex boxes permet entre autre d'aligner et de positionner les élements au
+  sein d'un conteneur.
+---
 
-Le `display: flex` permet entre autre d'aligner et de positionner les éléments au sein d'un conteneur.
-
-**Sommaire**
-
-* [Au niveau du parent](css-flex.md#au-niveau-du-parent)
-  * [Alignement horizontal](css-flex.md#alignement-horizontal)
-  * [Alignement vertical au sein d'une ligne](css-flex.md#alignement-vertical-au-sein-dune-ligne)
-  * [Direction](css-flex.md#direction)
-  * [Retour à la ligne](css-flex.md#retour-à-la-ligne)
-  * [Alignement vertical de plusieurs lignes](css-flex.md#alignement-vertical-de-plusieurs-lignes)
-* [Au niveau de l'élément](css-flex.md#au-niveau-de-lélément)
-  * [Alignement d'un élément](css-flex.md#alignement-dun-element)
-  * [Ordre d'affichage d'un élément](css-flex.md#ordre-daffichage-dun-element)
+# CSS - display: flex
 
 **Sources**
 
