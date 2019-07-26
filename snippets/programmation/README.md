@@ -1,5 +1,8 @@
-[:arrow_backward: Remonter](..)
+# README
 
-# post-it snippets programmation
+[:arrow\_backward: Remonter](../)
 
-* [Python](python)
+## post-it snippets programmation
+
+* [Python](python.md)
+

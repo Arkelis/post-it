@@ -1,24 +1,26 @@
-[:arrow_backward: Remonter](https://github.com/Arkelis/post-it)
+# README
 
-# post-it notes
+[:arrow\_backward: Remonter](https://github.com/Arkelis/post-it)
 
-Ce dossier contient des tas de petits mémos. D'autres sont un peu mieux rédigés sur 
-[PyColore](https://www.pycolore.fr/categories/cat_memo/).
+## post-it notes
 
-## Arborescence
+Ce dossier contient des tas de petits mémos. D'autres sont un peu mieux rédigés sur [PyColore](https://www.pycolore.fr/categories/cat_memo/).
 
-  * [GNU/Linux](gnulinux)
-  * [Web (HTML, CSS, JavaScript)](web)
-  * [Python](python)
-  
-## Liens vers les grands mémos
+### Arborescence
 
-  * [Python](https://www.pycolore.fr/python.pdf)
-  * [Serveur Debian](https://www.pycolore.fr/debian)
-  * [OCaml](https://www.pycolore.fr/ocaml)
+* [GNU/Linux](gnulinux/)
+* [Web \(HTML, CSS, JavaScript\)](web/)
+* [Python](python/)
 
-## Liens externes
+### Liens vers les grands mémos
 
-* [C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
+* [Python](https://www.pycolore.fr/python.pdf)
+* [Serveur Debian](https://www.pycolore.fr/debian)
+* [OCaml](https://www.pycolore.fr/ocaml)
+
+### Liens externes
+
+* [C\#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
 * [C++](https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/)
 * [C](https://zestedesavoir.com/tutoriels/755/le-langage-c-1/)
+

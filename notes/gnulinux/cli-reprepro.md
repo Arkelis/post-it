@@ -1,20 +1,18 @@
-# `reprepro` : Création de dépôt APT
+# reprepro : Création de dépôt APT
 
 Cet outil permet de créer facilement un dépôt APT.
 
 ## Installation
 
-```
+```text
 # apt install reprepro
 ```
 
 ## Configuration
 
-On considère que l'on mettra le dépôt dans un répertoire `/var/repo`. Pour fonctionner,
-`reprepro` a besoin d'un fichier de configuration `repo/conf/distributions`. Configurons
-un dépôt (exemple de dépôt PyColore) :
+On considère que l'on mettra le dépôt dans un répertoire `/var/repo`. Pour fonctionner, `reprepro` a besoin d'un fichier de configuration `repo/conf/distributions`. Configurons un dépôt \(exemple de dépôt PyColore\) :
 
-```
+```text
 Origin: repo.pycolore.fr
 Label: repo.pycolore.fr
 Codename: cosmic
@@ -24,8 +22,7 @@ Description: Pycolore APT Repository
 SignWith: <id de clé GPG>
 ```
 
-Les `Codename` et `Components` peuvent être n'importe quoi. J'ai mis `cosmic` ici car le dépôt
-est censé être compatible avec Ubuntu 18.04, mais on peut mettre autre chose.
+Les `Codename` et `Components` peuvent être n'importe quoi. J'ai mis `cosmic` ici car le dépôt est censé être compatible avec Ubuntu 18.04, mais on peut mettre autre chose.
 
 `Signwith` est l'id de la clé GPG qui signera les paquets.
 
@@ -35,13 +32,13 @@ On peut ajouter d'autres dépôts en mettant un nouvel `Origin` et les autres la
 
 Dans `/var/repo` :
 
-```
+```text
 # reprepro -b . includedeb cosmic /chemin/vers/le/deb
 ```
 
 Cela crée une arborescence particulière :
 
-```
+```text
 repo/
 ├─ conf/                   <- config pour reprepro
 ├─ db/                     <- bdd créées par reprerpo
@@ -60,15 +57,15 @@ repo/
 
 On peut alors ajouter la source
 
-```
+```text
 deb /var/repo cosmic main
 ```
 
 ## Ajout de la clé publique dans le dépôt
 
-
 Dans `/var/repo` :
 
-```
+```text
 # gpg --export --armor <id> KEY.gpg
 ```
+

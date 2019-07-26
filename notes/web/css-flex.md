@@ -1,23 +1,18 @@
+# CSS : display: flex
 
-
-# CSS : `display: flex`
-
-
-Le `display: flex` permet entre autres d'aligner et de positionner les éléments
-au sein d'un conteneur. 
+Le `display: flex` permet entre autre d'aligner et de positionner les éléments au sein d'un conteneur.
 
 **Sommaire**
 
-- [Au niveau du parent](#au-niveau-du-parent)
-  - [Alignement horizontal](#alignement-horizontal)
-  - [Alignement vertical au sein d'une ligne](#alignement-vertical-au-sein-dune-ligne)
-  - [Direction](#direction)
-  - [Retour à la ligne](#retour-à-la-ligne)
-  - [Alignement vertical de plusieurs lignes](#alignement-vertical-de-plusieurs-lignes)
-- [Au niveau de l'élément](#au-niveau-de-lélément)
-  - [Alignement d'un élément](#alignement-dun-element)
-  - [Ordre d'affichage d'un élément](#ordre-daffichage-dun-element)
-
+* [Au niveau du parent](css-flex.md#au-niveau-du-parent)
+  * [Alignement horizontal](css-flex.md#alignement-horizontal)
+  * [Alignement vertical au sein d'une ligne](css-flex.md#alignement-vertical-au-sein-dune-ligne)
+  * [Direction](css-flex.md#direction)
+  * [Retour à la ligne](css-flex.md#retour-à-la-ligne)
+  * [Alignement vertical de plusieurs lignes](css-flex.md#alignement-vertical-de-plusieurs-lignes)
+* [Au niveau de l'élément](css-flex.md#au-niveau-de-lélément)
+  * [Alignement d'un élément](css-flex.md#alignement-dun-element)
+  * [Ordre d'affichage d'un élément](css-flex.md#ordre-daffichage-dun-element)
 
 **Sources**
 
@@ -36,8 +31,7 @@ On commence par donner la propriété `display: flex` au conteneur.
 
 ### Alignement horizontal
 
-Pour positionner horizontalement les éléments, on utilise la propriété
-`justify-content`.
+Pour positionner horizontalement les éléments, on utilise la propriété `justify-content`.
 
 ```css
 .container {
@@ -49,15 +43,17 @@ Pour positionner horizontalement les éléments, on utilise la propriété
 * `flex-end` : les éléments s'alignent au côté droit du conteneur ;
 * `center` : les éléments s'alignent au centre du conteneur ;
 * `space-between` : les éléments sont séparés d'un même espacement ;
-* `space-around` : les éléments sont entourés d'une même marge (deux fois plus
-  d'espacement entre deux éléments qu'entre un élément et le bord du conteneur) ;
-* `space-evenly` : les espacements sont tous égaux (même espacement entre deux 
-  éléments et entre un élément et le bord du conteneur).
+* `space-around` : les éléments sont entourés d'une même marge \(deux fois plus
+
+  d'espacement entre deux éléments qu'entre un élément et le bord du conteneur\) ;
+
+* `space-evenly` : les espacements sont tous égaux \(même espacement entre deux 
+
+  éléments et entre un élément et le bord du conteneur\).
 
 ### Alignement vertical au sein d'une ligne
 
-Pour aligner veticalement les éléments d'une ligne, on utiliser la propriété
-`align-items`.
+Pour aligner veticalement les éléments d'une ligne, on utiliser la propriété `align-items`.
 
 ```css
 .container {
@@ -73,8 +69,7 @@ Pour aligner veticalement les éléments d'une ligne, on utiliser la propriété
 
 ### Direction
 
-Pour décider de la directon (de gauche à droite, de haut en bas, etc.),
-on utilise la propriété `flex-diection`.
+Pour décider de la directon \(de gauche à droite, de haut en bas, etc.\), on utilise la propriété `flex-diection`.
 
 ```css
 .container {
@@ -89,8 +84,7 @@ on utilise la propriété `flex-diection`.
 
 ### Retour à la ligne
 
-Pour décider si les éléments doivent tenir sur une ligne ou occuper plusieurs lignes,
-on utilise la propriété `flex-wrap`.
+Pour décider si les éléments doivent tenir sur une ligne ou occuper plusieurs lignes, on utilise la propriété `flex-wrap`.
 
 ```css
 .container {
@@ -100,7 +94,9 @@ on utilise la propriété `flex-wrap`.
 
 * `nowrap` : tous les éléments sont écrasés pour tenir sur une ligne ;
 * `wrap` : s'il n'y a pas la place en fin de ligne, on passe à la ligne
+
   suivante ;
+
 * `wrap-reverse` : idem sauf que la première ligne se situe tout en bas.
 
 On peut combiner `flex-diection` et `flex-wrap` en `flex-flow` :
@@ -115,8 +111,7 @@ Par défaut, `flex-flow` vaut `row wrap`.
 
 ### Alignement vertical de plusieurs lignes
 
-Pour aligner veticalement plusieurs lignes, on utiliser la propriété
-`align-content`.
+Pour aligner veticalement plusieurs lignes, on utiliser la propriété `align-content`.
 
 ```css
 .container {
@@ -135,8 +130,7 @@ Pour aligner veticalement plusieurs lignes, on utiliser la propriété
 
 ### Alignement d'un élément
 
-On peut positionner verticalement un élément lui-même en lui donnant la
-propriété `align-self`.
+On peut positionner verticalement un élément lui-même en lui donnant la propriété `align-self`.
 
 ```css
 .element {
@@ -146,8 +140,7 @@ propriété `align-self`.
 
 ### Ordre d'affichage d'un élément
 
-Par défaut, les éléments sont affichés dans l'ordre du code. On peut changer
-cet ordre d'affichage des éléments en leur donnant un ordinal :
+Par défaut, les éléments sont affichés dans l'ordre du code. On peut changer cet ordre d'affichage des éléments en leur donnant un ordinal :
 
 ```css
 .element {
@@ -156,3 +149,4 @@ cet ordre d'affichage des éléments en leur donnant un ordinal :
 ```
 
 Les éléments sont affichés de l'ordre croissant. Cette propriété vaut 0 par défaut.
+

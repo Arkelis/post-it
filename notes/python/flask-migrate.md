@@ -11,7 +11,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 ```
 
-## Commandes 
+## Commandes
 
 * Créer la base : `flask db init`
 * Créer les migrations : `flask db migrate`
@@ -20,3 +20,4 @@ migrate = Migrate(app, db)
 ## Documentation
 
 [ICI](https://flask-migrate.readthedocs.io/en/latest/)
+

@@ -1,17 +1,20 @@
-[:arrow_backward: Remonter](..)
+# README
 
-# post-it notes web
+[:arrow\_backward: Remonter](../)
 
-## Références du langage
+## post-it notes web
+
+### Références du langage
 
 * CSS
   * [CSS-Flexbox](css-flex.md)
   * [CSS-Grid](css-grid.md)
 
-## Bibliothèques
+### Bibliothèques
 
 * Javascript
   * [ReactJS](js-reactjs.md)
 * CSS
   * [Animate CSS](https://github.com/daneden/animate.css)
   * [Skeleton](http://getskeleton.com/)
+

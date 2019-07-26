@@ -6,25 +6,26 @@
 
 Installer nodejs :
 
-```
+```text
 $ sudo dnf install nodejs
 ```
 
 Installer yarn, une alternative plus rapide à npm :
-```
+
+```text
 $ curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
 $ sudo dnf install yarn
 ```
 
 Créer une application React grâce à l'outil développé par Facebook :
 
-```
+```text
 $ npx create-react-app nom_de_lapplicaton
 ```
 
 Lancer le serveur :
 
-```
+```text
 $ yarn start
 ```
 
@@ -37,23 +38,21 @@ Deux dossiers:
 1. `public` qui contient l'html
 2. `src` qui contient l'app JS
 
-Dans le dossier `src`, le fichier `index.js` import les dépendances nécessaires
-à React et importe une classe `App` du fichier`App.js`. Ce fichier contient un
-ou plusieurs Component.
+Dans le dossier `src`, le fichier `index.js` import les dépendances nécessaires à React et importe une classe `App` du fichier`App.js`. Ce fichier contient un ou plusieurs Component.
 
 ## Component
-C'est une classe JS (typescript) qui hérite de `Component`. Plusieurs choses
-caractérisent un composant (Component) :
 
-1. Les propriétés (`props`) : des données immuables qui permettent de transférer 
+C'est une classe JS \(typescript\) qui hérite de `Component`. Plusieurs choses caractérisent un composant \(Component\) :
+
+1. Les propriétés \(`props`\) : des données immuables qui permettent de transférer 
+
    des données entre les composants.
-2. L'état (`state`), constamment mué, représente l'état du composant.
 
-Un Component doit posséder une méthode `render()` qui renvoie du code qui ressemble
-à du HTML, il s'agit de la syntaxe JSX. Par exemple :
+2. L'état \(`state`\), constamment mué, représente l'état du composant.
 
+Un Component doit posséder une méthode `render()` qui renvoie du code qui ressemble à du HTML, il s'agit de la syntaxe JSX. Par exemple :
 
-```js
+```javascript
 class App extends Component {
     render() {
         return (
@@ -65,14 +64,9 @@ class App extends Component {
 
 ### Props
 
-Les props (raccourcis de propriétés) sont le moyen de transmettre des variables
-d'un composant parent à un composant enfant. Pour se faire, on passe les props
-en arguments des composants enfants dans la fonction `render()` du composant
-parent. Par exemple, un composant `App` appelle un composant enfant `Welcome`
-en lui donnant une prop `name` de valeur `"Guillaume"`. Cette `prop` est immuable
-et est accessible pour l'enfant à `this.props.name`.
+Les props \(raccourcis de propriétés\) sont le moyen de transmettre des variables d'un composant parent à un composant enfant. Pour se faire, on passe les props en arguments des composants enfants dans la fonction `render()` du composant parent. Par exemple, un composant `App` appelle un composant enfant `Welcome` en lui donnant une prop `name` de valeur `"Guillaume"`. Cette `prop` est immuable et est accessible pour l'enfant à `this.props.name`.
 
-```js
+```javascript
 // App.js
 
 import Welcome from './Welcome'; // pas besoin de .js
@@ -101,9 +95,7 @@ export default Welcome;
 
 ### State
 
-Le `state` d'un Component représente son état, i.e. permet de mémoriser des
-paramètres qui lui sont propres. L'état est initialisé dans le constructeur 
-du composant.
+Le `state` d'un Component représente son état, i.e. permet de mémoriser des paramètres qui lui sont propres. L'état est initialisé dans le constructeur du composant.
 
 ```javascript
 class Welcome extends Component {
@@ -113,7 +105,7 @@ class Welcome extends Component {
             inc: 0
         }
     }
-    
+
     render() {
         return (
             <h1>Welcome {this.props.name}</h1>
@@ -122,9 +114,9 @@ class Welcome extends Component {
     }
 }
 ```
-> Note : Il faut toujours prendre au moins `props` en paramètre et commencer
-  par appeler le constructeur parent : `super(props)`.
-  
+
+> Note : Il faut toujours prendre au moins `props` en paramètre et commencer par appeler le constructeur parent : `super(props)`.
+
 Les variables de l'état sont accessibles par `this.state.clé`. L'état peut être modifié grâce à la méthode `setState({ clé: nouvelleValeur })`.
 
 ### Événements
@@ -139,7 +131,7 @@ class Welcome extends Component {
             inc: 0
         }
     }
-    
+
     render() {
         return (
             <div>
@@ -178,10 +170,9 @@ function Welcome(props) {
 }
 ```
 
-Pas besoin d'indiquer `this`. Il y a aussi un avantage pour l'appel de fonctions.
-Imaginons :
+Pas besoin d'indiquer `this`. Il y a aussi un avantage pour l'appel de fonctions. Imaginons :
 
-```js
+```javascript
 class App extends Component {
     constructor(props) {
         super(props)
@@ -189,7 +180,7 @@ class App extends Component {
             inc: 0
         }
     }
-    
+
     render() {
         return (
             <Welcome 
@@ -213,3 +204,4 @@ function Welcome(props) {
 ```
 
 Pour faire référence à une fonction, plus besoin de `() => fonction()` mais simplement `fonction`.
+

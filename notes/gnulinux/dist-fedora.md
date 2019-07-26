@@ -14,3 +14,4 @@
 * [Conventions de nommage](https://fedoraproject.org/wiki/Packaging:NamingGuidelines)
 * [Conventions de vérifiaction](https://docs.fedoraproject.org/en-US/packaging-guidelines/ReviewGuidelines/)
 * [Bugzilla Fedora](https://bugzilla.redhat.com/)
+
