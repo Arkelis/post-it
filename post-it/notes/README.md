@@ -6,15 +6,29 @@ description: >-
 
 # Notes
 
-## Arborescence
+## Linux
 
-* [GNU/Linux](gnulinux/)
-* [Web \(HTML, CSS, JavaScript\)](web/)
-* [Python](python/)
+Des notes rapides concernant l'univers Linux
 
-## Liens externes
+* Commandes
+* Distributions GNU/Linux
+* Environnements de bureau
+* Démons \(services\)
 
-* [C\#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
-* [C++](https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/)
-* [C](https://zestedesavoir.com/tutoriels/755/le-langage-c-1/)
+{% page-ref page="gnulinux/" %}
+
+## Python
+
+Des notes sur des bibliothèques Python
+
+{% page-ref page="python/" %}
+
+## Web
+
+Des notes à propos du Web :
+
+* Des éléments sur les langages Web : HTML, CSS et JavaScript
+* Des notes et liens sur les bibliothèques et frameworks
+
+{% page-ref page="web/" %}
 

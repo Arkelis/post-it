@@ -6,5 +6,5 @@ description: Extraits de code sur des langages de programmation
 
 ## Liste des langages
 
-* [Python](python.md)
+{% page-ref page="python.md" %}
 
