@@ -10,13 +10,13 @@ description: Ce dépôt contient des tas de petits mémos et des extraits de cod
 
 Ce sont des notes au format texte sur divers sujet
 
-{% page-ref page="notes-1/notes/" %}
+{% page-ref page="post-it/notes/" %}
 
 ### Les extraits de code \(snippets\)
 
 Ce sont des mini bouts de code qui peuvent être réutilisés
 
-{% page-ref page="notes-1/snippets/" %}
+{% page-ref page="post-it/snippets/" %}
 
 ## Liens vers les grands mémos
 
