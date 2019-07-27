@@ -31,7 +31,13 @@
 
 ## Grands mémos
 
-* [Python](https://www.pycolore.fr/python/)
-* [OCaml](https://www.pycolore.fr/ocaml/)
-* [Debian](https://www.pycolore.f.fr/debian/)
+* [Grand Mémo Python](https://www.pycolore.fr/python/)
+* [Grand Mémo OCaml](https://www.pycolore.fr/ocaml/)
+* [Grand Mémo Debian](https://www.pycolore.f.fr/debian/)
+
+## Tutoriels externes
+
+* [C sur Zeste de savoir](https://zestedesavoir.com/tutoriels/755/le-langage-c-1/)
+* [C++ sur Zeste de savoir](https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/)
+* [Documentation Microsoft C\#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
 

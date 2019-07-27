@@ -12,12 +12,6 @@ description: >-
 * [Web \(HTML, CSS, JavaScript\)](web/)
 * [Python](python/)
 
-## Liens vers les grands mémos
-
-* [Python](https://www.pycolore.fr/python.pdf)
-* [Serveur Debian](https://www.pycolore.fr/debian)
-* [OCaml](https://www.pycolore.fr/ocaml)
-
 ## Liens externes
 
 * [C\#](https://docs.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/index)
