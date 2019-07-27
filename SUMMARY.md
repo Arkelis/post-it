@@ -33,7 +33,7 @@
 
 * [Grand Mémo Python](https://www.pycolore.fr/python/)
 * [Grand Mémo OCaml](https://www.pycolore.fr/ocaml/)
-* [Grand Mémo Debian](https://www.pycolore.f.fr/debian/)
+* [Grand Mémo Debian](https://www.pycolore.fr/debian/)
 
 ## Tutoriels externes
 
