@@ -4,7 +4,7 @@
 
 Avec `pip` :
 
-```
+```text
 $ pip install --user pew
 ```
 

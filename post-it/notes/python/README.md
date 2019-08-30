@@ -1,3 +1,7 @@
+---
+description: Notes sur les bibliothèques et des outils CLI utiles
+---
+
 # Python
 
 ## Outils CLI
