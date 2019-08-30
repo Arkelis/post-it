@@ -5,7 +5,7 @@
 Avec `pip` :
 
 ```
-$ pip insta --user pew
+$ pip install --user pew
 ```
 
 Pew stocke par défaut les environnements virtuels dans `~/.local/share/virtualenvs`. On peut modifier cela en changeant la valeur de la variable d'environnement `WORKON_HOME`.
