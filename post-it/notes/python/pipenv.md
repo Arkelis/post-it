@@ -1,6 +1,12 @@
 # pipenv - Gestionnaire de dépendances et d'environnement virtuel
 
-Pipenv est la manière recommandée par la doc de gérer les dépendances d'un projet. Avec Pipenv, plus de `pip` ou de `virtualenv`, tout est automatique !
+Pipenv est la manière recommandée par la doc de gérer les dépendances d'un projet. Avec Pipenv, plus de `pip` ou de `virtualenv`, voire même `pew`, tout est automatique !
+
+{% hint style="warning" %}
+Suite à quelques problèmes, notamment la résolution de dépendances qui prend des plombes et qui n'aboutit pas parfois \(trop souvent même\), j'utilise plutôt poetry \(post-it suivant\) qui prend aussi en charge le packaging.
+
+Néanmoins, cet outil n'est pas totalement à jeter à la poubelle ! Il faut suivre son évolution.
+{% endhint %}
 
 ## Installation
 

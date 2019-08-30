@@ -18,6 +18,7 @@
     * [avahi-daemon - découverte du réseau local](post-it/notes/gnulinux/ds-avahi-daemon.md)
   * [Python](post-it/notes/python/README.md)
     * [pyenv - Gérer les versions de Python](post-it/notes/python/pyenv.md)
+    * [pew - Gestion des environnements virtuels](post-it/notes/python/pew-gestion-des-environnements-virtuels.md)
     * [pipenv - Gestionnaire de dépendances et d'environnement virtuel](post-it/notes/python/pipenv.md)
     * [poetry - Gestion de dépendances et packaging de projets Python](post-it/notes/python/poetry.md)
     * [Flask-Migrate : Migrations avec SQLAlchemy & Alembic dans Flask.](post-it/notes/python/flask-migrate.md)
