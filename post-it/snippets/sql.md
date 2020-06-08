@@ -14,6 +14,12 @@ La commande suivante crée un utilisateur `newuser` qui peut se connecter sur l'
 CREATE USER 'newuser'@'localhost' identified by 'mdp';
 ```
 {% endtab %}
+
+{% tab title="PostgreSQL 12" %}
+```sql
+CREATE USER 'newuser' WITH ENCRYPTED PASSWORD 'mdp';
+```
+{% endtab %}
 {% endtabs %}
 
 #### Donner les privilèges à un utilisateur sur une base de données
@@ -24,6 +30,13 @@ La commande suivante donne à l'utilisateur précédent tous les privilèges sur
 {% tab title="MariaDB 10.3.1" %}
 ```sql
 GRANT ALL PRIVILEGES ON table.base TO 'newuser'@'localhost';
+```
+{% endtab %}
+
+{% tab title="PostgreSQL 12" %}
+```sql
+\c base
+GRANT ALL PRIVILEGES ON table TO newuser;
 ```
 {% endtab %}
 {% endtabs %}
