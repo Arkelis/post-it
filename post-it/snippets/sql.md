@@ -8,7 +8,7 @@
 
 La commande suivante crée un utilisateur `newuser` qui peut se connecter sur l'hôte `localhost`. L'utilisateur pourra se connecter avec le mot de passe `mdp`.
 
-```text
+```sql
 CREATE USER 'newuser'@'localhost' identified by 'mdp';
 ```
 
@@ -16,7 +16,7 @@ CREATE USER 'newuser'@'localhost' identified by 'mdp';
 
 La commande suivante donne à l'utilisateur précédent tous les privilèges sur la table `table`de la base `base`.
 
-```text
+```sql
 GRANT ALL PRIVILEGES ON table.base TO 'newuser'@'localhost';
 ```
 
