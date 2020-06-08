@@ -18,11 +18,5 @@ Ce sont des mini bouts de code qui peuvent être réutilisés
 
 {% page-ref page="post-it/snippets/" %}
 
-## Liens vers les grands mémos
-
-Les liens ci-dessous redirigent vers des grands mémos indépendants.
-
-## Liens vers des ressources externes
-
-Pour d'autres langages / thèmes, je me contente pour l'instant de tutoriels externes
+D'autres liens sont disponibles dans la barre latérale.
 

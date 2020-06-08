@@ -27,6 +27,7 @@
     * [CSS - display: flex](post-it/notes/web/css-flex.md)
     * [JavaScript - React](post-it/notes/web/js-reactjs.md)
 * [Extraits de codes \(snippets\)](post-it/snippets/README.md)
+  * [SQL](post-it/snippets/sql.md)
   * [Programmation](post-it/snippets/programmation/README.md)
     * [Python](post-it/snippets/programmation/python.md)
 
