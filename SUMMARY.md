@@ -23,6 +23,7 @@
     * [poetry - Gestion de dépendances et packaging de projets Python](post-it/notes/python/poetry.md)
     * [Flask-Migrate : Migrations avec SQLAlchemy & Alembic dans Flask.](post-it/notes/python/flask-migrate.md)
   * [Web](post-it/notes/web/README.md)
+    * [Meta noindex](post-it/notes/web/meta-noindex.md)
     * [CSS - display: grid](post-it/notes/web/css-grid.md)
     * [CSS - display: flex](post-it/notes/web/css-flex.md)
     * [JavaScript - React](post-it/notes/web/js-reactjs.md)
