@@ -10,7 +10,7 @@ $ ssh-copy-id ~/.ssh/nom_de_la_cle -i user@host
 
 ## Mail server config \(liens\)
 
-* Complete installation of Postfix + Dovecot : [https://www.tictech.info/post/mail\_preparation](https://www.tictech.info/post/mail_preparation) \(à remettre au gout du jour\)
+* Installation de sereur mail : [https://www.citizenz.info/-serveur-mail-complet-et-moderne](https://www.citizenz.info/-serveur-mail-complet-et-moderne) puis [https://www.citizenz.info/-serveur-mail-complet-et-moderne-part-2](https://www.citizenz.info/-serveur-mail-complet-et-moderne-part-2)
 * fail2ban : [https://reseau.developpez.com/tutoriels/fail2ban/](https://reseau.developpez.com/tutoriels/fail2ban/)
 * Spamassassin : cf. [le grand mémo](https://www.pycolore.fr/debian/serveur-mail/spamassassin.html)
 
