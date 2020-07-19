@@ -1,12 +1,12 @@
 ---
-description: Outil pour économiser de la batPterie sur Linux
+description: Outil pour économiser de la batterie sur Linux
 ---
 
 # Économie d'énergie Linux
 
 ## Page récapitulative des outils
 
-Page du wiki Arch Linux traitant des outils : [https://wiki.archlinux.org/index.php/Power\_management](https://wiki.archlinux.org/index.php/Power_management)
+**Page du wiki Arch Linux traitant des outils :** [https://wiki.archlinux.org/index.php/Power\_management](https://wiki.archlinux.org/index.php/Power_management)
 
 ## Laptop Mode Tools
 

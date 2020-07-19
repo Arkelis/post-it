@@ -12,6 +12,7 @@ description: 'Notes diverses à propos de GNU/Linux : commandes, distributions, 
 * [dpkg](cli-dpkg.md) : un utilitaire pour gérer les paquets DEB.
   * dpkg-deb : Extraire, modifier, rempaqueter un paquet DEB.
 * [smartctl](cli-smartctl.md) : utilitaire de surveillance et de contrôle de disques SMART.
+* [Gestion de l'énergie, économie de batterie](economie-denergie-linux.md)
 
 ## Distributions
 
