@@ -7,6 +7,7 @@
 
 * [Notes](post-it/notes/README.md)
   * [Linux](post-it/notes/gnulinux/README.md)
+    * [Économie d'énergie Linux](post-it/notes/gnulinux/economie-denergie-linux.md)
     * [Debian](post-it/notes/gnulinux/dist-debian.md)
     * [Fedora](post-it/notes/gnulinux/dist-fedora.md)
     * [cpupower - Gestion de la fréquence du CPU](post-it/notes/gnulinux/cli-cpupower.md)
