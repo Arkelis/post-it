@@ -6,6 +6,8 @@
 ## Mini mémos <a id="post-it"></a>
 
 * [Notes](post-it/notes/README.md)
+  * [Git](post-it/notes/git/README.md)
+    * [core.sshCommand](post-it/notes/git/core.sshcommand.md)
   * [Linux](post-it/notes/gnulinux/README.md)
     * [Économie d'énergie Linux](post-it/notes/gnulinux/economie-denergie-linux.md)
     * [Debian](post-it/notes/gnulinux/dist-debian.md)
