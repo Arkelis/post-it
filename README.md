@@ -4,15 +4,23 @@ description: Ce dépôt contient des tas de petits mémos et des extraits de cod
 
 # Post-it de PyColore
 
-## Deux types de post-it
+## Mini mémos
 
-### Les mini mémos
+{% page-ref page="post-it/python/" %}
 
-Ce sont des notes au format texte sur divers sujet
+{% page-ref page="post-it/git/" %}
 
-### Les extraits de code \(snippets\)
+{% page-ref page="post-it/cli/" %}
 
-Ce sont des mini bouts de code qui peuvent être réutilisés
+{% page-ref page="post-it/web/" %}
 
-D'autres liens sont disponibles dans la barre latérale.
+{% page-ref page="post-it/sql.md" %}
+
+{% page-ref page="post-it/gnulinux/" %}
+
+{% page-ref page="post-it/ds/" %}
+
+## Grands mémos
+
+Dans la barre latérale
 
