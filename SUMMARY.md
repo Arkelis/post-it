@@ -7,6 +7,7 @@
 
 * [Python](post-it/python/README.md)
   * [pyenv - Gérer les versions de Python](post-it/python/pyenv.md)
+  * [pipx - Installation d'applications Python](post-it/python/pipx-installation-dapplications-python.md)
   * [pew - Gestion des environnements virtuels](post-it/python/pew-gestion-des-environnements-virtuels.md)
   * [pipenv - Gestionnaire de dépendances et d'environnement virtuel](post-it/python/pipenv.md)
   * [poetry - Gestion de dépendances et packaging de projets Python](post-it/python/poetry.md)
