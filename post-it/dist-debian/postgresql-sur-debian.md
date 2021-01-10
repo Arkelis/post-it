@@ -25,7 +25,7 @@ Il s'agit de l'utilisation de PostgreSQL sur Debian.
 
 ### Post-install
 
-L'utilisateur admin de PostgreSQL est l'utilisateur `postgres`. On peut s'y connecter à partir de sudo :
+L'utilisateur admin de PostgreSQL est l'utilisateur `postgres`. On peut s'y connecter avec `su` en tant que `root` :
 
 ```text
 # su postgres
@@ -44,19 +44,19 @@ $ psql -c "ALTER USER postgres WITH password 'my-great-passwd'"
 En tant qu'administrateur 
 
 ```text
-su postgres
+# su postgres
 ```
 
 On commence par créer l'utilisateur qui possédera la base :
 
 ```text
-createuser dbuser
+$ createuser dbuser
 ```
 
 Puis on crée la base en spécifiant son propriétaire :
 
 ```text
-createdb mydb -O dbuser
+$ createdb mydb -O dbuser
 ```
 
 ### Cas des utilisateurs non UNIX
@@ -113,5 +113,19 @@ La méthode `md5` indique que l'on demande systématiquement le mot de passe. Si
 local   all             all                                     md5
 ```
 
+## Connexion à la base de données et requêtes
 
+On peut se connecter à notre base `mydb` en spécifiant l'utilisateur :
+
+```text
+$ psql mydb dbuser
+```
+
+On arrive alors sur le prompt de PostgreSQL. Pour quitter : `\q`. On peut ici balancer les requêtes SQL.
+
+Pour exécuter une requête SQL en mode sans interaction :
+
+```text
+$ psql mydb dbuser -c "SELECT * FROM ..."
+```
 
