@@ -16,7 +16,7 @@ description: 'Notes diverses à propos de GNU/Linux : commandes, distributions, 
 
 ## Distributions
 
-* [Commandes et liens utiles pour configurer un serveur Debian](dist-debian.md)
+* [Commandes et liens utiles pour configurer un serveur Debian](../dist-debian/)
 * [Fedora](dist-fedora.md) : liens utiles pour le packaging
 
 ## Environnements de bureau
