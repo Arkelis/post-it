@@ -26,5 +26,4 @@ Pew stocke par défaut les environnements virtuels dans `~/.local/share/virtuale
 
 ## Utilisation avec pyenv et zsh
 
-Si vous exportez des variables liées au `$PATH` pour pyenv dans `~/.zshenv`, cela peut poser des problèmes lors de l'exécution de la commande `pew workon`. Il faut renommer `~/.zshenv` en `~/.zprofile` \(ce dernier est exécuté plus tard lors de l'initialisation du shell zsh\).
-
+Si vous exportez des variables liées au `$PATH` pour pyenv dans `~/.zshenv` il faut bien faire attention à ne pas y laisser les trois lignes concernant `pyenv init -`, elles doivent être dans **`~/.zshrc`**. En effet, `.zshenv` ne devrait contenir que des exports de variables d'environnement.
