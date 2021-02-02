@@ -13,18 +13,32 @@ $ sudo dnf install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-dev
 openssl-devel xz xz-devel libffi-devel findutils
 ```
 
+Pour Solus :
+
+```
+sudo eopkg it -c system.devel
+sudo eopkg install git gcc make zlib-devel bzip2-devel readline-devel sqlite3-devel openssl-devel tk-devel
+```
+
 Puis :
 
 ```text
-$ curl https://pyenv.run | bash
+$ curl https://pyenv.run | bash # (ou zsh ou votre shell)
 ```
 
-Il faut s'assurer que ces lignes sont ajoutées au `bashrc` :
+Ajouter ces lignes à `~\.bashrc` (bash) ou à `~/.zshenv` (zsh) :
+
+```
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+```
+
+Ajouter ces lignes à `~\.bashrc` (bash) ou à `~/.zshrc` (zsh) :
 
 ```bash
-export PATH="~/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 ```
 
 ```text
