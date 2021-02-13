@@ -27,3 +27,4 @@ Pew stocke par défaut les environnements virtuels dans `~/.local/share/virtuale
 ## Utilisation avec pyenv et zsh
 
 Si vous exportez des variables liées au `$PATH` pour pyenv dans `~/.zshenv` il faut bien faire attention à ne pas y laisser les trois lignes concernant `pyenv init -`, elles doivent être dans **`~/.zshrc`**. En effet, `.zshenv` ne devrait contenir que des exports de variables d'environnement.
+

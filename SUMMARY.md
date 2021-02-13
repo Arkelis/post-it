@@ -29,6 +29,7 @@
 * [SQL](post-it/sql.md)
 * [Debian](post-it/dist-debian/README.md)
   * [PostgreSQL sur Debian](post-it/dist-debian/postgresql-sur-debian.md)
+  * [Apache httpd](post-it/dist-debian/apache-httpd.md)
 * [Notes générales Linux](post-it/gnulinux/README.md)
   * [Économie d'énergie Linux](post-it/gnulinux/economie-denergie-linux.md)
   * [Fedora](post-it/gnulinux/dist-fedora.md)
