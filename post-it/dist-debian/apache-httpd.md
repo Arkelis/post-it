@@ -8,7 +8,7 @@ description: Notes concernant le serveur HTTP d'Apache (httpd)
 
 **Tiré de :** [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-configure-apache-http-with-mpm-event-and-php-fpm-on-ubuntu-18-04-fr)
 
-Le module PHP par défaut d'Apache n'est pas compatible avec MPM Event qui permet de gérer le protocole HTTP/2. On va devoir alors installer PHP-FPM pour gérer le PHP avec Apache.
+Le module PHP par défaut d'Apache n'est pas compatible avec [MPM](https://httpd.apache.org/docs/2.4/fr/mpm.html) Event qui permet de gérer le protocole HTTP/2. On va devoir alors installer [PHP-FPM ](https://www.php.net/manual/fr/install.fpm.php)pour gérer le PHP avec Apache.
 
 ### Installation et activation de MPM Event
 
