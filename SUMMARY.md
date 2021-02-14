@@ -21,6 +21,7 @@
   * [reprepro : Création de dépôt APT](post-it/cli/cli-reprepro.md)
   * [cpupower - Gestion de la fréquence du CPU](post-it/cli/cli-cpupower.md)
   * [find - recherche de fichier](post-it/cli/cli-find.md)
+* [Vim](post-it/vim.md)
 * [Web](post-it/web/README.md)
   * [Meta noindex](post-it/web/meta-noindex.md)
   * [CSS - display: grid](post-it/web/css-grid.md)
