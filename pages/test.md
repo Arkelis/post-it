@@ -1,6 +1,3 @@
-Hey
-##
-##
 ---
 title: test
 public: true
