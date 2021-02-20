@@ -2,10 +2,9 @@
 title: test
 public: true
 ---
-##
-#+BEGIN_TIP
-zerezrez
-#+END_TIP
+## #begin+title
+Couco
+#end+title
 ###
 ### Sous titre
 
