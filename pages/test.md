@@ -4,9 +4,9 @@ public: true
 ---
 ###
 ###
-#+BEGIN_IMPORTANT
+#+BEGIN_TITLE
 hey
-#+END_IMPORTANT
+#+END_TITLE
 ### Sous titre
 
 ## Ceci est un tes
