@@ -21,6 +21,7 @@ Components: main
 Description: Pycolore APT Repository
 SignWith: <id de clé GPG>
 ```
+##
 ## Les `Codename` et `Components` peuvent être n'importe quoi. J'ai mis `cosmic` ici car le dépôt est censé être compatible avec Ubuntu 18.04, mais on peut mettre autre chose.
 
 `Signwith` est l'id de la clé GPG qui signera les paquets.
