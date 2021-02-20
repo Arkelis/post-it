@@ -1,5 +1,6 @@
 ---
 title: test
+public: true
 ---
 
 ## Hell
