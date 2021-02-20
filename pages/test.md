@@ -1,12 +1,7 @@
 ---
 title: test
 public: true
----
-
-## Hell
-
-Ceci est du texte
-
+--- Ceci est du texte
 ### Sous titre
 
 ## Ceci est un test
