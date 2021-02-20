@@ -3,10 +3,8 @@ title: test
 public: true
 ---
 ###
+### *****Hey***
 ###
-#+BEGIN_TITLE
-hey
-#+END_TITLE
 ### Sous titre
 
 ## Ceci est un tes
