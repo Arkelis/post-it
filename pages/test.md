@@ -1,7 +1,8 @@
 ---
 title: test
 public: true
---- Ceci est du texte
+---
+## Ceci est du texte
 ### Sous titre
 
 ## Ceci est un test
