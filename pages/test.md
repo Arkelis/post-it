@@ -2,7 +2,11 @@
 title: test
 public: true
 ---
-## Hello
+##
+#+BEGIN_TIP
+zerezrez
+#+END_TIP
+###
 ### Sous titre
 
 ## Ceci est un tes
