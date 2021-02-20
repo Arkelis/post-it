@@ -2,10 +2,8 @@
 title: test
 public: true
 ---
-##
-#+BEGIN_NOTE
-
-#+END_NOTE
+## **Hey**
+###
 ###
 #+BEGIN_IMPORTANT
 hey
