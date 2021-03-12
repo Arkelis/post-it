@@ -34,6 +34,10 @@ array[-1]
 # => 5
 array.last
 # => 5
+array[1]
+# => 2
+array.at(2)
+# => 3
 ```
 ### Slices : `tableau[<indice>, <nombre>]`
 ```ruby
