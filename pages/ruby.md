@@ -56,7 +56,7 @@ array << 8 << 9 << 10
 (1...5).to_a
 # => [1, 2, 3, 4]
 ```
-###
+### Slices avec des ranges
 ```ruby
 array[0..2]
 # => [1, 2, 3]
