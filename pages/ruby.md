@@ -50,7 +50,7 @@ array[1, 1000]
 array[17, 1]
 # => nil
 ```
-### Ajout
+### Ajout à la fin
 ```ruby
 array << 6
 # [1, 2, 3, 4, 5, 6]
@@ -58,6 +58,10 @@ array.push(7)
 # [1, 2, 3, 4, 5, 6, 7]
 array << 8 << 9 << 10
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+### Ajout au début (décalage)
+```ruby
+
 ```
 ### Objet range : itérateur incrémental
 ```ruby
