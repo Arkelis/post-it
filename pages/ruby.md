@@ -16,7 +16,7 @@ Cette méthode renvoie un booléen : `true` ou `false`
 ```
 ### On récupère l'id d'un objet avec la méthode `.object_id`
 Deux objets différents ont en général deux identifiants différents.
-Un entier a un id fixe qui est égale à sa valeur * 2 + 1
+Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 ###
 ## **Tableaux**
 ###
