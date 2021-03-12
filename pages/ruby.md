@@ -18,5 +18,7 @@ Cette méthode renvoie un booléen : `true` ou `false`
 Deux objets différents ont en général deux identifiants différents.
 Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 ### La méthode `.clone` permet de créer une copie d'un objet
+## Symboles
+###
 ## **Tableaux**
 ###
