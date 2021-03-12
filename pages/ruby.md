@@ -14,3 +14,5 @@ Cette méthode renvoie un booléen : `true` ou `false`
 1.is_a?(Object)
 => true
 ```
+## **Tableaux**
+###
