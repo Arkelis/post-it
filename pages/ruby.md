@@ -12,5 +12,5 @@ Cette méthode renvoie un booléen : `true` ou `false`
 ### On peut tester l'appartenance d'un objet à une classe avec `.is_a?`
 ```ruby
 1.is_a?(Object)
-true
+=> true
 ```
