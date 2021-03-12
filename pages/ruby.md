@@ -49,4 +49,8 @@ array.append(7)
 array << 8 << 9 << 10
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
-### Objet range : itérateur
+### Objet range : itérateur incrémental
+```ruby
+`(a..b)` toutes les valeurs de `a` à `b` inclus.
+`(a...b)` toutes les valeurs de `a` à `b` exclus.
+```
