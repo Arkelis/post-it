@@ -39,7 +39,7 @@ array[1]
 array.at(2)
 # => 3
 array.fetch(234, :unknown)
-# => :unknwon
+# => :unknown
 ```
 ### Slices : `tableau[<indice>, <nombre>]`
 ```ruby
