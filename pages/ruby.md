@@ -51,6 +51,9 @@ array << 8 << 9 << 10
 ```
 ### Objet range : itérateur incrémental
 ```ruby
-`(a..b)` toutes les valeurs de `a` à `b` inclus.
-`(a...b)` toutes les valeurs de `a` à `b` exclus.
+(1..5).to_a
+[1, 2, 3, 4, 5]
+(1...5).to_a
+[1, 2, 3, 4]
 ```
+###
