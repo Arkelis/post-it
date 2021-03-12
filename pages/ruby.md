@@ -28,7 +28,11 @@ Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 array = [1, 2, 3, 4, 5]
 array[0]
 # => 1
+array.first
+# => 1
 array[-1]
+# => 5
+array.last
 # => 5
 ```
 ### Slices : `tableau[<indice>, <nombre>]`
