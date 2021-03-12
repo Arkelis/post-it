@@ -59,10 +59,6 @@ array.push(7)
 array << 8 << 9 << 10
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
-### Ajout au début (décalage)
-```ruby
-
-```
 ### Objet range : itérateur incrémental
 ```ruby
 (1..5).to_a
@@ -80,5 +76,9 @@ array[0..-1]
 # => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 array[-2...-1]
 [9]
+```
+### Ajout au début
+```ruby
+array.unshfit(0)
 ```
 ###
