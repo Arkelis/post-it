@@ -27,33 +27,33 @@ Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 ```ruby
 array = [1, 2, 3, 4, 5]
 array[0]
-=> 1
+# => 1
 array[-1]
-=> 5
+# => 5
 ```
 ### Slices : `tableau[<indice>, <nombre>]`
 ```ruby
 array[0, 1]
-=> 1
+# => 1
 array[1, 1000]
-=> [2, 3, 4, 5]
+# => [2, 3, 4, 5]
 array[17, 1]
-=> nil
+# => nil
 ```
 ### Ajout
 ```ruby
 array << 6
-[1, 2, 3, 4, 5, 6]
+# [1, 2, 3, 4, 5, 6]
 array.append(7)
-[1, 2, 3, 4, 5, 6, 7]
+# [1, 2, 3, 4, 5, 6, 7]
 array << 8 << 9 << 10
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 ### Objet range : itérateur incrémental
 ```ruby
 (1..5).to_a
-[1, 2, 3, 4, 5]
+# => [1, 2, 3, 4, 5]
 (1...5).to_a
-[1, 2, 3, 4]
+# => [1, 2, 3, 4]
 ```
 ###
