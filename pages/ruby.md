@@ -33,5 +33,10 @@ array[-1]
 ```
 ### Slices : `tableau[<indice>, <nombre>]`
 ```ruby
-
+array[0, 1]
+=> 1
+array[1, 1000]
+=> [2, 3, 4, 5]
+array[17, 1]
+=> nil
 ```
