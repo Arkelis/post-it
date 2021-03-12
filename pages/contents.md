@@ -1,2 +1,2 @@
 # Mémos Langages
-## Ruby
+## [[Ruby]]
