@@ -23,4 +23,15 @@ Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 ### Syntaxe : préfixer le symbole de deux points : `symbol = :foo`
 ## **Tableaux**
 ### Tableau vide : `Array.new` ou `[]`
-###
+### Accès :
+```ruby
+array = [1, 2, 3, 4, 5]
+a[0]
+=> 1
+a[-1]
+=> 5
+```
+### Slices : `tableau[<indice>, <nombre>]`
+```ruby
+
+```
