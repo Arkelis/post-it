@@ -22,4 +22,5 @@ Un petit entier a un id fixe qui est égale à sa valeur * 2 + 1
 ### Les symboles ont un rôle d'identificateur, ce ne sont pas des chaînes de caractères, ils peuvent prendre le rôle d'enumeration
 ### Syntaxe : préfixer le symbole de deux points : `symbol = :foo`
 ## **Tableaux**
-### Tableau vide : `Array.new`
+### Tableau vide : `Array.new` ou `[]`
+###
