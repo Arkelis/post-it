@@ -40,4 +40,8 @@ array[1, 1000]
 array[17, 1]
 => nil
 ```
-###
+### Ajout
+```ruby
+array << 6
+[1, 2, 3, 4, 5, 6]
+array.append() ```
