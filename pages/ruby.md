@@ -101,5 +101,86 @@ a, b = [1] # a=1 et b=nil
 a, *b = [1, 2, 3] # a=1 et b=[2, 3]
 a, = [1, 2] # a=1
 a, b = b, a # a=b et b=a
-
 ```
+## **`Hash` :** dictionnaires
+### Création
+```ruby
+d = {"one" => 1, "two" => 2} # clés String
+d = {:one => 1, :two => 2} # clés symboles
+d = {one => 1, two => 2} # syntaxe alternative pour des clés symboles
+
+# en utilisant le constructeur
+d = Hash.new
+d[:one] = 1
+d[:two] = 2
+```
+### Accès
+```ruby
+d[:one]
+# => 1
+d[:three]
+# => nil
+d.default = -1
+d[:three]
+# => -1
+
+# on peut aussi définir la valeur par défaut lors de la construction
+d = Hash.new(-1)
+d[:one]
+# => -1
+
+d.fetch(:one)
+# => KeyError (key not found: :one)
+d.fetch(:one, -1)
+# => -1
+d[:one] = 1
+d.fetch(:one)
+# => 1
+```
+## **Chaînes de caractères**
+### Définition
+```ruby
+simple = 'a string called "Simple"'
+double = "a string called 'Double'"
+double_escaping = "Escaping is \"Simple\""
+multiline = %{
+I can handle both "simple"
+and 'simple' quotes
+}
+multiline
+# => "\nI can handle both \"simple\"\nand 'simple' quotes\n"
+multiline.lines
+# => 3
+doc = <<EOS
+Another delimiter
+which does not start by a new line
+EOS
+doc.lines
+# => 2
+```
+### Concaténation et muabilité
+```ruby
+hello = 'Hello '
+world = "world"
+hello + world
+# => "Hello world"
+hello
+# => "Hello "
+hello += world
+hello
+# => "Hello world"
+hello << "!"
+# => "Hello world!"
+hello
+# => "Hello world!"
+```
+### Split et join
+```ruby
+"Coucou toi".split
+# => ["Coucou", "toi"]
+"a:b:c".split(/:/) # /:/ est une regex
+# => ["a", "b", "c"]
+["Hello", "world"].join(" ")
+"Hello world"
+```
+## **Symboles**
