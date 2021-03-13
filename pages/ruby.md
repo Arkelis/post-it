@@ -50,15 +50,6 @@ array[1, 1000]
 array[17, 1]
 # => nil
 ```
-### Ajout à la fin
-```ruby
-array << 6
-# [1, 2, 3, 4, 5, 6]
-array.push(7)
-# [1, 2, 3, 4, 5, 6, 7]
-array << 8 << 9 << 10
-# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-```
 ### Objet range : itérateur incrémental
 ```ruby
 (1..5).to_a
@@ -76,6 +67,17 @@ array[0..-1]
 # => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 array[-2...-1]
 [9]
+```
+### Ajout / Retrait à la fin
+```ruby
+array << 6
+# [1, 2, 3, 4, 5, 6]
+array.push(7)
+# [1, 2, 3, 4, 5, 6, 7]
+array << 8 << 9 << 10
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+array.pop
+# => 10
 ```
 ### Ajout au début
 ```ruby
