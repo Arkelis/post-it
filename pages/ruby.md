@@ -300,8 +300,8 @@ Ext::Relative.new.my_c
 ```
 ## **Conditions**
 ### Affectation : Dans les deux cas suivants `a` vaut 1
-#### `a = if true then 1 else 2 end`
-#### `a = true ? 1 : 2`
+- `a = if true then 1 else 2 end`
+- `a = true ? 1 : 2`
 ### Blocs
 ```ruby
 if expr
@@ -320,4 +320,79 @@ end
 `a = :new if true # a=:new `
 `a = :other unless false`
 `a = :err if false # a=nil`
+### Mis à part `false`, et `nil`, toute expression est évaluée à `true`, y compris `0`, `[]` et `{}`.
 ## **Boucles**
+### While
+#### Basique
+```ruby
+i = 0
+while i <= 10
+  puts i # puts = print() en Python
+  i += 1
+end
+```
+#### Break : les 3 exemples sont équivalents
+```ruby
+i = 0
+while true
+  if i > 10
+    break
+  end
+  puts i
+  i += 1
+end
+
+i = 0
+while true
+  break if i > 10
+  puts i
+  i += 1
+end
+
+i = 0
+while true
+  # break sauf si i <= 10
+  break unless i <= 10
+  puts i
+  i += 1
+end
+```
+#### Next : passer à l'itération suivante
+```ruby
+i = 0
+while i < 10
+  i += 1
+  next if i % 2 == 0
+  puts i
+end
+
+# 1
+# 3
+# 5
+# 7
+# 9
+```
+### In
+```ruby
+for el in [:foo, :bar, :baz]
+  puts el
+end
+
+# foo
+# bar
+# baz
+# => [:foo, :bar, :baz]
+```
+### Times
+```ruby
+5.times do |x|
+  puts x
+end
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# => 5
+```
