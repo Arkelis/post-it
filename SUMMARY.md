@@ -5,6 +5,8 @@
 
 ## Mini mémos <a id="post-it"></a>
 
+* [Ruby](post-it/ruby/README.md)
+  * [rbenv - Gérer les versions de Ruby](post-it/ruby/rbenv-gerer-les-versions-de-ruby.md)
 * [Python](post-it/python/README.md)
   * [pyenv - Gérer les versions de Python](post-it/python/pyenv.md)
   * [pipx - Installation d'applications Python](post-it/python/pipx.md)
