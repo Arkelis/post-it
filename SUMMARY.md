@@ -32,6 +32,7 @@
   * [JavaScript - React](post-it/web/js-reactjs.md)
 * [SQL](post-it/sql.md)
 * [Debian](post-it/dist-debian/README.md)
+  * [VPS OVH : Configuration IPv6](post-it/dist-debian/vps-ovh-configuration-ipv6.md)
   * [PostgreSQL sur Debian](post-it/dist-debian/postgresql-sur-debian.md)
   * [Apache httpd](post-it/dist-debian/apache-httpd.md)
 * [Notes générales Linux](post-it/gnulinux/README.md)
