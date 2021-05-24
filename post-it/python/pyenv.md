@@ -34,11 +34,12 @@ Puis :
 $ curl https://pyenv.run | bash # (ou zsh ou votre shell)
 ```
 
-Ajouter ces lignes à `~\.bashrc` \(bash\) ou à `~/.zshenv` \(zsh\) :
+Ajouter ces lignes à `~\.bash_profile` \(bash\) ou à `~/.zshenv` \(zsh\) :
 
 ```text
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 ```
 
 Ajouter ces lignes à `~\.bashrc` \(bash\) ou à `~/.zshrc` \(zsh\) :
