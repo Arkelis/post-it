@@ -6,6 +6,14 @@ Ce programme permet d'installer des versions de Python isolées de celle du syst
 
 Il est recommandé d'utiliser [`pyenv-installer`](https://github.com/pyenv/pyenv-installer). Les instructions d'installation y sont détaillées.
 
+Pour Debian : 
+
+```text
+sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
 Pour Fedora :
 
 ```text
